@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download PDF</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- <div class="pdf-container">
+        <iframe src="./pdf/p.pdf"></iframe>
+    </div> -->
+
+    <!-- Hidden download link -->
+    <a id="download-link" href="./pdf/p.pdf" download="p.pdf" style="display: none;"></a>
+
+    <!-- JavaScript to trigger the download -->
+    <script>
+        // Trigger the hidden download link when the page loads
+        window.addEventListener('load', () => {
+            document.getElementById('download-link').click();
+        });
+    </script>
+</body>
+
+</html>
